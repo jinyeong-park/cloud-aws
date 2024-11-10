@@ -1,0 +1,45 @@
+# Ignore environment variables
+.env
+.env.*
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+vendor/
+public/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python-related
+__pycache__/
+*.py[cod]
+
+# Compiled source files and directories
+dist/
+build/
+*.out
+*.class
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# IDE-specific directories
+.vscode/
+.idea/
+
+# Ignore transpiled and compiled files
+*.tsbuildinfo
+*.map
