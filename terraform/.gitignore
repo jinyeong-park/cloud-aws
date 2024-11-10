@@ -43,3 +43,9 @@ build/
 # Ignore transpiled and compiled files
 *.tsbuildinfo
 *.map
+
+
+# Ignore Terraform local dependencies
+.terraform/
+*.tfstate
+*.tfstate.*
